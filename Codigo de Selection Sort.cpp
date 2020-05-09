@@ -2,7 +2,8 @@
 using namespace std;
 void selecao (int vet[], int tam);
 int main(){
-    int x,vet[] = {13,23,3,8,1};
+    setlocale(LC_ALL, "Portuguese");
+	int x,vet[] = {13,23,3,8,1};
     system("cls");
     cout<<"\nAntes da Chamada da Função - SELECAO\n\t\t";
     for(x=0;x<5;x++)
